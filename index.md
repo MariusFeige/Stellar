@@ -96,3 +96,4 @@ background-color: rgb(224, 69, 64);
             <td id="lastname">Mathis</td> 
             <td id="Age">25</td>
         </tr>
+      </div>
