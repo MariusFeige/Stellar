@@ -43,7 +43,7 @@ background-color: rgb(224, 69, 64);
                 $(this).find('td').each(function() {
                 //when we stumble upon the data used as a search criteria
                     cell_value = $(this).html(); //gets the value of the cell being checked
-                    if (cell_value == search_field[this.id] || search_field[this.id] == ''||cell_value <= search_field[this.id]) {
+                    if (cell_value == search_field[this.id] || search_field[this.id] == ''||cell_value <= search_field['Age']) {
                         display++;    
                     }
                 });
