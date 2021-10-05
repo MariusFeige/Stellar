@@ -1,5 +1,6 @@
 
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -56,21 +57,22 @@ background-color: rgb(224, 69, 64);
     </script>
 </head>
 <body class="light">
+  <div class="centre">
   
-    <input list="Positions" id="Position" class="search-key" placeholder="Position"
+    <input list="Positions" id="Position" class="search-key" placeholder="Position">
     <datalist  id="Positions">
       <option value="CB">
       <option value="GK">
       <option value="ST">
-  </datalist>>
+    </datalist> 
+  
   
     <input type="text" id="lastname" class="search-key" placeholder="lastname">
     <input type="number" id="Age" class="search-key" placeholder="Age">
-  
+  </div>
     <div class="centre">
     <p></p>
-    <table 
-    border="5"
+    <table border="5"
     cellspacing="15"
      id="Players">
         <tr>
@@ -98,5 +100,3 @@ background-color: rgb(224, 69, 64);
             <td id="lastname">Mathis</td> 
             <td id="Age">25</td>
         </tr>
-
-
