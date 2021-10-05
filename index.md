@@ -58,7 +58,7 @@ background-color: rgb(224, 69, 64);
 </head>
 <body class="light">
   <div class="centre">
-  
+  <div style="overflow-x:auto;">
     <input type="text" id="Position" class="search-key" placeholder="Position" size="5">
   
   
