@@ -57,12 +57,12 @@ background-color: rgb(224, 69, 64);
 </head>
 <body class="light">
   
-    <input list="Positions" id="Position" class="search-key" placeholder="Position">
+    <input list="Positions" id="Position" class="search-key" placeholder="Position"
     <datalist  id="Positions">
       <option value="CB">
       <option value="GK">
       <option value="ST">
-  </datalist>
+  </datalist>>
   
     <input type="text" id="lastname" class="search-key" placeholder="lastname">
     <input type="number" id="Age" class="search-key" placeholder="Age">
