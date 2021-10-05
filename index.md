@@ -59,12 +59,7 @@ background-color: rgb(224, 69, 64);
 <body class="light">
   <div class="centre">
   
-    <input list="Positions" id="Position" class="search-key" placeholder="Position">
-    <datalist  id="Positions">
-      <option value="CB">
-      <option value="GK">
-      <option value="ST">
-    </datalist> 
+    <input type="text" id="Position" class="search-key" placeholder="Position">
   
   
     <input type="text" id="lastname" class="search-key" placeholder="lastname">
