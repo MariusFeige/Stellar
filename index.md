@@ -48,7 +48,7 @@ background-color: rgb(224, 69, 64);
                         display++;    
                     }
                 });
-                if (display < 3) {
+                if (display < 4) {
                     current_row.hide(); //if this cell is a match, or we no longer want to use it as a search criteria, the row is displayed
                 }
             });
