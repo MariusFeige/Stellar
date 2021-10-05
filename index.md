@@ -85,7 +85,7 @@ background-color: rgb(224, 69, 64);
             <td id="lastname">Arambarri</td> 
             <td id="Age">25</td>
             <td id="Contact">Alonso</td>
-             <td id="Expires">Winter21</td>
+             <td id="Expires">W21</td>
             <td> <a href="Arambarri.html"> <img src="pls.jpg" height="20" width="30"/> </td>
         </tr>
 
@@ -94,13 +94,13 @@ background-color: rgb(224, 69, 64);
             <td id="lastname">Lynd</td> 
             <td id="Age">27</td>
             <td id="Contact">Test</td>
-            <td id="Expires">Summer22</td>
+            <td id="Expires">S22</td>
         </tr>
         <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
-            <td id="Expires">Winter22</td>
+            <td id="Expires">W22</td>
         </tr>
     
