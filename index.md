@@ -90,13 +90,17 @@ background-color: rgb(224, 69, 64);
         </tr>
 
         <tr>
-            <td id="Position">GK</td>
+          <td id="Position">GK</td>
             <td id="lastname">Lynd</td> 
             <td id="Age">27</td>
+            <td id="Contact">Test</td>
+            <td id="Expires">Summer22</td>
         </tr>
         <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
             <td id="Age">25</td>
+            <td id="Contact">Rafa</td>
+            <td id="Expires">Winter22</td>
         </tr>
     
