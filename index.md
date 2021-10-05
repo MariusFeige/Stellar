@@ -62,8 +62,8 @@ background-color: rgb(224, 69, 64);
     <input type="text" id="Position" class="search-key" placeholder="Position" size="5">
   
   
-    <input type="text" id="lastname" class="search-key" placeholder="lastname">
-    <input type="number" id="Age" class="search-key" placeholder="Age">
+    <input type="text" id="lastname" class="search-key" placeholder="lastname" size="5">
+    <input type="number" id="Age" class="search-key" placeholder="Age" size="5">
   </div>
     <div class="centre">
     <p></p>
