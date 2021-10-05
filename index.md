@@ -65,6 +65,7 @@ background-color: rgb(224, 69, 64);
     <input type="text" id="lastname" class="search-key" placeholder="lastname" size="5">
     <input type="number" id="Age" class="search-key" placeholder="Age" size="5">
   </div>
+  </div>
     <div class="centre">
     <p></p>
       <div style="overflow-x:auto;">
