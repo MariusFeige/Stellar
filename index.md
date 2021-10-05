@@ -62,7 +62,7 @@ background-color: rgb(224, 69, 64);
       <option value="CB">
       <option value="GK">
       <option value="ST">
-    
+  </datalist>
   
     <input type="text" id="lastname" class="search-key" placeholder="lastname">
     <input type="number" id="Age" class="search-key" placeholder="Age">
