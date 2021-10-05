@@ -1,4 +1,5 @@
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -63,10 +64,11 @@ background-color: rgb(224, 69, 64);
       <option value="GK">
       <option value="ST">
     </datalist> 
-
+  </div>
+  <div>
     <input type="text" id="lastname" class="search-key" placeholder="lastname">
     <input type="number" id="Age" class="search-key" placeholder="Age">
-    </div>
+  </div>
     <div class="centre">
     <p></p>
     <table border="5"
