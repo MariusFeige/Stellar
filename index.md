@@ -63,7 +63,8 @@ background-color: rgb(224, 69, 64);
   
     <div class="centre">
     <p></p>
-    <table border="5"
+    <table 
+    border="5"
     cellspacing="15"
      id="Players">
         <tr>
@@ -94,4 +95,4 @@ background-color: rgb(224, 69, 64);
 </table>
 </div>
 </body>
-</html>
+</html lang="en">
