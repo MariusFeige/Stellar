@@ -67,6 +67,7 @@ background-color: rgb(224, 69, 64);
   </div>
     <div class="centre">
     <p></p>
+      <div style="overflow-x:auto;">
     <table border="5"
     cellspacing="15"
      id="Players">
