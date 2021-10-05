@@ -70,7 +70,7 @@ background-color: rgb(224, 69, 64);
     <p></p>
       <div style="overflow-x:auto;">
     <table border="5"
-    cellspacing="15"
+    cellspacing="10"
      id="Players">
         <tr>
             <th class="dark">Position </th>
