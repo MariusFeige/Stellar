@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -57,16 +56,7 @@ background-color: rgb(224, 69, 64);
 </head>
 <body class="light">
   <div class="centre">
-    <input list="browsers">
-
-    <datalist id="browsers">
-      <option value="Internet Explorer">
-      <option value="Firefox">
-      <option value="Google Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist> 
-
+  
     <input list="Positions" id="Position" class="search-key" placeholder="Position">
     <datalist  id="Positions">
       <option value="CB">
