@@ -35,6 +35,7 @@ background-color: rgb(224, 69, 64);
             search_field['Position']      = $( "#Position" ).val();
             search_field['lastname']  = $("#lastname").val();
             search_field['Age']    =   $("#Age").val(); 
+       search_field['Expires']    =   $("#Expires").val() ;
 
             table.find('tr').not(':first').each(function () {
                 current_row = $(this); //keep track of the row being checked, iterate through it's cells
@@ -60,10 +61,9 @@ background-color: rgb(224, 69, 64);
   <div class="centre">
   <div style="overflow-x:auto;">
     <input type="text" id="Position" class="search-key" placeholder="Position" size="5">
-  
-  
     <input type="text" id="lastname" class="search-key" placeholder="lastname" size="5">
     <input type="number" id="Age" class="search-key" placeholder="Age" size="5">
+    <input type="text" id="Expires" class="search-key" placeholder="Exp">
   </div>
   </div>
     <div class="centre">
@@ -77,6 +77,7 @@ background-color: rgb(224, 69, 64);
             <th> Lastname </th> 
             <th> Age</th>
             <th> Contact </th>
+            <th> Expires </th>
             <th> Link </th>
         </tr>
         <tr>
@@ -84,6 +85,7 @@ background-color: rgb(224, 69, 64);
             <td id="lastname">Arambarri</td> 
             <td id="Age">25</td>
             <td id="Contact">Alonso</td>
+             <td id="Expires">Winter21</td>
             <td> <a href="Arambarri.html"> <img src="pls.jpg" height="20" width="30"/> </td>
         </tr>
 
