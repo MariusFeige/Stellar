@@ -56,7 +56,6 @@ background-color: rgb(224, 69, 64);
     </script>
 </head>
 <body class="light">
-  <div class="centre">
   
     <input list="Positions" id="Position" class="search-key" placeholder="Position">
     <datalist  id="Positions">
