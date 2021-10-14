@@ -37,7 +37,7 @@ background-color: rgb(224, 69, 64);
             search_field['Age']    =   $("#Age").val(); 
        search_field['Expires']    =   $("#Expires").val() ;
 
-            table.find('tr').each(function () {
+            table.find('tr').not(':first').each(function () {
                 current_row = $(this); //keep track of the row being checked, iterate through it's cells
                 var display = 0;
                 current_row.show();
