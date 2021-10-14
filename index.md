@@ -37,14 +37,14 @@ background-color: rgb(224, 69, 64);
             search_field['Age']    =   $("#Age").val(); 
        search_field['Expires']    =   $("#Expires").val() ;
 
-            table.find('tr').not(':first').each(function () {
+            table.find('tr').each(function () {
                 current_row = $(this); //keep track of the row being checked, iterate through it's cells
                 var display = 0;
                 current_row.show();
                 $(this).find('td').each(function() {
                 //when we stumble upon the data used as a search criteria
                     cell_value = $(this).html(); //gets the value of the cell being checked
-                    if (cell_value == search_field[this.id] || search_field[this.id] == ''||cell_value < search_field['Age']) {
+                    if (cell_value == search_field[this.id] || search_field[this.id] == ''||cell_value <= search_field['Age']) {
                         display++;    
                     }
                 });
