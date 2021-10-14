@@ -78,7 +78,7 @@ background-color: rgb(224, 69, 64);
             <th> Age</th>
             <th> Contact </th>
             <th> Expires </th>
-            <th> Link </th>
+            
         </tr>
         <tr>
             <td id="Position">CB</td>
@@ -86,7 +86,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Alonso</td>
              <td id="Expires">W21</td>
-            <td> <a href="Arambarri.html"> <img src="pls.jpg" height="20" width="30"/> </td>
+            
         </tr>
 
         <tr>
