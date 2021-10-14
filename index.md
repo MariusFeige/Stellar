@@ -87,8 +87,7 @@ background-color: rgb(224, 69, 64);
             <td id="Contact">Alonso</td>
              <td id="Expires">W21</td>
             
-        </tr>
-
+       
         <tr>
           <td id="Position">GK</td>
             <td id="lastname">Lynd</td> 
