@@ -79,7 +79,7 @@ background-color: rgb(224, 69, 64);
             <th> Contact </th>
             <th> Expires </th>
             
-        </tr>
+        
         <tr>
             <td id="Position">CB</td>
             <td id="lastname" ><a href="Arambarri.html">  Arambarri 
