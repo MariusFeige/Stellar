@@ -99,7 +99,7 @@ background-color: rgb(224, 69, 64);
         <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">22</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
@@ -107,7 +107,14 @@ background-color: rgb(224, 69, 64);
  <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">23</td>
+            <td id="Contact">Rafa</td>
+            <td id="Expires">W22</td>
+        </tr>
+       <tr>
+            <td id="Position">ST</td>
+            <td id="lastname">Mathis</td> 
+            <td id="Age">24</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
@@ -121,35 +128,28 @@ background-color: rgb(224, 69, 64);
        <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">26</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">27</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">28</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
-            <td id="Contact">Rafa</td>
-            <td id="Expires">W22</td>
-        </tr>
-       <tr>
-            <td id="Position">ST</td>
-            <td id="lastname">Mathis</td> 
-            <td id="Age">25</td>
+            <td id="Age">29</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
         </tr>
