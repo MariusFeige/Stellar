@@ -82,7 +82,7 @@ background-color: rgb(224, 69, 64);
         </tr>
         <tr>
             <td id="Position">CB</td>
-            <td id="lastname">Arambarri</td> 
+            <td id="lastname" class="dark">Arambarri</td> 
             <td id="Age">25</td>
             <td id="Contact">Alonso</td>
              <td id="Expires">W21</td>
