@@ -55,7 +55,7 @@ background-color: rgb(224, 69, 64);
         ///we create it as an object, initially empty
         $('.search-key').on('change keyup paste input contextmenu', function () {
             search_field['Position']      = $( "#Position" ).val();
-            search_field['lastname']  = $("#lastname").val();
+            search_field['nation']  = $("#nation").val();
             search_field['Age']    =   $("#Age").val(); 
        search_field['Expires']    =   $("#Expires").val() ;
 
@@ -91,6 +91,7 @@ background-color: rgb(224, 69, 64);
   
    <div class="centre">
   <div style="overflow-x:auto;">
+
      <input list="Positions" id="Position" class="search-key" placeholder="Position" size="5" >
     <datalist  id="Positions">
       <option value="CB">
@@ -98,10 +99,17 @@ background-color: rgb(224, 69, 64);
       <option value="ST">
     </datalist> 
       
-    <input type="text" id="lastname" class="search-key" placeholder="lastname" size="5">
+    <input list="Nationa" id="nation" class="search-key" placeholder="Nation" size="5">
+    <datalist  id="Nationa">
+       
+        <option value="England">
+        <option value="USA">
+        <option value="Uruguay">
+      </datalist> 
+
     <input type="number" id="Age" class="search-key" placeholder="Age" size="5">
       
-   <input list="Expiress" id="Expires" class="search-key" placeholder="Exp" size="5">
+    <input list="Expiress" id="Expires" class="search-key" placeholder="Exp" size="5">
       <datalist  id="Expiress">
       <option value="W21">
       <option value="S22">
@@ -123,29 +131,37 @@ background-color: rgb(224, 69, 64);
             <th> Age</th>
             <th> Contact </th>
             <th> Expires </th>
+            <th>Nation</th>
             
         
+
+
+
+            <tr>
+                <td id="Position">GK</td>
+                  <td id="lastname">Lynd</td> 
+                  <td id="Age">27</td>
+                  <td id="Contact">Test</td>
+                  <td id="Expires">S22</td>
+                    <td id="nation">USA</td>
+              </tr>
+
         <tr>
             <td id="Position">CB</td>
-            <td id="lastname"><a href="Arambarri.html">  Arambarri 
+            <td id="lastname"><a href="Arambarri.html">Arambarri</td>
             <td id="Age">25</td>
             <td id="Contact">Alonso</td>
              <td id="Expires">W21</td>
-            
+             <td id="nation">Uruguay</td>
        
-        <tr>
-          <td id="Position">GK</td>
-            <td id="lastname">Lynd</td> 
-            <td id="Age">27</td>
-            <td id="Contact">Test</td>
-            <td id="Expires">S22</td>
-        </tr>
+     
         <tr>
             <td id="Position">ST</td>
             <td id="lastname">Mathis</td> 
             <td id="Age">22</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
     
  <tr>
@@ -154,6 +170,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">23</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -161,6 +178,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">24</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -168,6 +186,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -175,6 +194,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">26</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -182,6 +202,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">27</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -189,6 +210,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">28</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -196,6 +218,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">29</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
  <tr>
             <td id="Position">ST</td>
@@ -203,6 +226,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -210,6 +234,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -217,6 +242,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -224,6 +250,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -231,6 +258,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -238,6 +266,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -245,6 +274,7 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
         </tr>
        <tr>
             <td id="Position">ST</td>
@@ -252,5 +282,6 @@ background-color: rgb(224, 69, 64);
             <td id="Age">25</td>
             <td id="Contact">Rafa</td>
             <td id="Expires">W22</td>
+            <td id="nation">England</td>
 </body>
 </html>
