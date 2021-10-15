@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <style>
+        .light {
+  
+          background-color: turquoise;
+      }
+      .new {
+  
+  background-color: rgb(224, 69, 64);
+  }
+      .centre{
+          display: flex;
+          justify-content: center;
+      }
+  
+  
+      
+  
+      
+  
+  
+      .myTable { 
+    width: 100%;
+    text-align: left;
+    background-color: lemonchiffon;
+    border-collapse: collapse; 
+    }
+  .myTable th { 
+    background-color: goldenrod;
+    color: white; 
+    }
+  .myTable td, 
+  .myTable th { 
+    padding: 10px;
+    border: 1px solid goldenrod; 
+    }
+      
+      
+  </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+<script>
+    $(document).ready(function(){
+    table = $("#Teams"); //set table name
+    search_field = new Object();
+    ///we create it as an object, initially empty
+    $('.search-key').on('change keyup paste input contextmenu', function () {
+        search_field['Team']      = $( "#Team" ).val();
+        
+
+        table.find('tr').not(':first').each(function () {
+            current_row = $(this); //keep track of the row being checked, iterate through it's cells
+            var display = 0;
+            current_row.show();
+            $(this).find('td').each(function() {
+            //when we stumble upon the data used as a search criteria
+                cell_value = $(this).html(); //gets the value of the cell being checked
+                if (cell_value == search_field[this.id] || search_field[this.id] == '') {
+                    display++;    
+                }
+            });
+            if (display < 1) {
+                current_row.hide(); //if this cell is a match, or we no longer want to use it as a search criteria, the row is displayed
+            }
+        });
+
+    });   
+});
+    
+    
+</script>
+</head>
+<body>
+    <body class="light">
+    
+    
+    
+    
+    
+  
+        <div class="centre">
+       <div style="overflow-x:auto;">
+     
+          <input list="Teamz" id="Team" class="search-key" placeholder="Team" size="20" >
+         <datalist  id="Teamz">
+           <option value="USA-U17">
+           <option value="USA-U18">
+           <option value="USA-U19">
+         </datalist> 
+           
+     
+       </div>
+       </div>
+         <div class="centre">
+         <p></p>
+           <div style="overflow-x:auto;">
+         <table border="5"
+                
+         cellspacing="10"
+          id="Teams"
+                class="myTable">
+             <tr>
+                 <th>Position </th>
+                 <th> Lastname </th> 
+                 <th> Age</th>
+                 <th> Contact </th>
+                 <th> Team </th>
+                 
+             
+     
+     
+     
+                 <tr>
+                     <td id="Position">GK</td>
+                       <td id="lastname">Kyle</td> 
+                       <td id="Age">18</td>
+                       <td id="Contact">Test</td>
+                       <td id="Team">USA-U19</td>
+                   </tr>
+                   <tr>
+                    <td id="Position">GK</td>
+                      <td id="lastname">Smith</td> 
+                      <td id="Age">17</td>
+                      <td id="Contact">Test</td>
+                      <td id="Team">USA-U18</td>
+                  </tr>
+                  <tr>
+                    <td id="Position">GK</td>
+                      <td id="lastname">Johnson</td> 
+                      <td id="Age">15</td>
+                      <td id="Contact">Test</td>
+                      <td id="Team">USA-U17</td>
+                  </tr>
+</body>
+</html>
