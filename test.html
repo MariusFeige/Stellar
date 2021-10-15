@@ -28,6 +28,23 @@ background-color: rgb(224, 69, 64);
     justify-content: center;
 }
 
+    .myTable { 
+  width: 100%;
+  text-align: left;
+  background-color: lemonchiffon;
+  border-collapse: collapse; 
+  }
+.myTable th { 
+  background-color: goldenrod;
+  color: white; 
+  }
+.myTable td, 
+.myTable th { 
+  padding: 10px;
+  border: 1px solid goldenrod; 
+  }
+    
+    
 </style>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     
@@ -89,8 +106,10 @@ background-color: rgb(224, 69, 64);
     <p></p>
       <div style="overflow-x:auto;">
     <table border="5"
+           
     cellspacing="10"
-     id="Players">
+     id="Players"
+           class="myTable">
         <tr>
             <th>Position </th>
             <th> Lastname </th> 
