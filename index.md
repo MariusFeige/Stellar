@@ -66,7 +66,7 @@ background-color: rgb(224, 69, 64);
   
   
 
-<button onclick="window.location.href = 'test.html';" class="button"><span>Players </span></button>
+<button onclick="window.location.href = 'Playerlist.html';" class="button"><span>Players </span></button>
 <button style="background-color: #1e2cf4;" onclick="window.location.href = 'teams.html';" class="button"><span>Youth </span></button>
   
   
