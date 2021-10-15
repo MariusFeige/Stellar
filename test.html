@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
+      .light {
+
+        background-color: turquoise;
+    }
+    .new {
+
+background-color: rgb(224, 69, 64);
+}
+    .centre{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    
  /* Dropdown Button */
 .dropbtn {
   background-color: #04AA6D;
@@ -71,7 +86,39 @@
 }
 
 </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
     <script>
+        $(document).ready(function(){
+        table = $("#Players"); //set table name
+        search_field = new Object();
+        ///we create it as an object, initially empty
+        $('.search-key').on('change keyup paste', function () {
+            search_field['Position']      = $( "#Position" ).val();
+            search_field['lastname']  = $("#lastname").val();
+            search_field['Age']    =   $("#Age").val(); 
+       search_field['Expires']    =   $("#Expires").val() ;
+
+            table.find('tr').not(':first').each(function () {
+                current_row = $(this); //keep track of the row being checked, iterate through it's cells
+                var display = 0;
+                current_row.show();
+                $(this).find('td').each(function() {
+                //when we stumble upon the data used as a search criteria
+                    cell_value = $(this).html(); //gets the value of the cell being checked
+                    if (cell_value == search_field[this.id] || search_field[this.id] == ''||cell_value <= search_field['Age']) {
+                        display++;    
+                    }
+                });
+                if (display < 4) {
+                    current_row.hide(); //if this cell is a match, or we no longer want to use it as a search criteria, the row is displayed
+                }
+            });
+
+        });   
+    });
+        
+        
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
