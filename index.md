@@ -64,6 +64,6 @@ background-color: rgb(224, 69, 64);
 </head>
 <body class="light">
   
-  <h2>Animated Button</h2>
+  
 
-<button class="button"><span>Hover </span></button>
+<button onclick="window.location.href = 'test.html';" class="button"><span>Players </span></button>
