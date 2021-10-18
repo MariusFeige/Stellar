@@ -96,6 +96,8 @@ $(function(){
         var x = URL.createObjectURL(event.target.files[0]);
         $("#upload-img").attr("src",x);
         console.log(event);
+        document.getElementById("test").style.display ="none";
+
     });
 
 })
@@ -110,8 +112,8 @@ $(function(){
               <div class="card shadow-sm">
                 <div class="card-header bg-transparent text-center">
                     <img src="Stellar/test.jpg" id="upload-img" class="profile_img" >
-                    <div class="custom">
-                        <label for="fileupload"> <img src="Stellar/test.jpg" class="profile_img"> </label>
+                    <div class="custom" id="test">
+                        <label for="fileupload"> Upload Picture </label>
                 <input type="file" id="fileupload" >
 </div>
             <h3><input type="text" size="20" placeholder="Name"></h3>
