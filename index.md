@@ -74,7 +74,7 @@ background-color: rgb(224, 69, 64);
 <button onclick="window.location.href = 'Playerlist.html';" class="button"><span>Players </span></button>
 <button style="background-color: #1e2cf4;" onclick="window.location.href = 'teams.html';" class="button"><span>Youth </span></button>
   <button style="background-color: #1a9212" onclick="window.location.href = 'update.html';" class="button"><span>New </span></button>
-  <button style="background-color: #1a9212" onclick="window.location.href = 'Requirements.html';" class="button"><span>New </span></button>
+  <button style="background-color: #ebe309" onclick="window.location.href = 'Requirements.html';" class="button"><span>Requirements </span></button>
   
   
   
